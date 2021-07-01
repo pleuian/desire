@@ -1,0 +1,12 @@
+$yellow: #ffef35;
+$dark: #363838;
+$main: #5a5a5a;
+$semi-light: #a1a1a1;
+$light: #dfdfdf;
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}

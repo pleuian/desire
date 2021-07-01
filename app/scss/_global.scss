@@ -1,0 +1,65 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Bitter', serif;
+	color: $main;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	overflow-x: hidden;
+	min-width: 300px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-fluid {
+	max-width: 2000px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	li {
+		margin: 0 15px;
+		&.slick-active {
+			button {
+				background-color: $yellow;
+			}
+		}
+	}
+	button {
+		background-color: $dark;
+		border: none;
+		border-radius: 50%;
+		width: 8px;
+		height: 8px;
+		font-size: 0;
+		padding: 0;
+	}
+}
+
+
+
+
+
